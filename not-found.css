@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.span-logo {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    font-family: "Euclid Circular A", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .nav-link {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Euclid Circular A", sans-serif;
+    color: black;
+  }
+  .logo-png{
+    position: relative;
+  }
+  #navbarSupportedContent{
+    margin-left: 120px;
+  }
+  .menu-button {
+    width: 170px;
+    height: 48px;
+  }
+  .fa-chevron-right {
+    margin-left: 10px;
+  }
+  hr{
+      height: 10px;
+      color: #e4e9f2;
+      opacity: 0.7;
+  }
+  .not-found-image{
+    margin-top: 50px;
+  }
+  .card button{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      color: #705df2;
+      font-family: "Euclid Circular A", sans-serif;
+      border-radius: 24px;
+      border: 1px solid #705df2 ;
+      width: 185px;
+      height: 48px;
+      background-color: white;
+  }
+  .card button i{
+    padding-right: 15px;
+    color: #705df2;
+  }
+  .card h5{
+      font-size: 24px;
+      font-family: "Euclid Circular A", sans-serif;
+      font-weight: 600;
+      line-height: 32px;
+  }
+  .card p{
+    font-size: 16px;
+    font-family: "Euclid Circular A", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  @media screen and (max-width: 768px) {
+    .logo-png {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .menu-logo {
+      width: 25px;
+      height: 32px;
+    }
+    .span-logo {
+      position: relative;
+      margin-top: 0px;
+      margin-left: 5px;
+      font-size: 20px;
+    }
+    .fa-bars {
+      font-size: 25px;
+      margin-right: 10px;
+    }
+    .menu-button {
+      width: 84px;
+      height: 36px;
+    }
+    .fa-chevron-right {
+      display: none;
+    }
+    form{
+      display: flex;
+    }
+    form .menu-button{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .not-found-image{
+      margin-top: 20px;
+    }
+    .container .not-found-image img{
+        margin-left: 20px;
+        max-width: 288px;
+    }
+    .card h5{
+        font-size: 20px;
+        font-family: "Euclid Circular A", sans-serif;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    .card p{
+      font-size: 14px;
+      font-family: "Euclid Circular A", sans-serif;
+      font-weight: 400;
+      line-height: 20px;
+    }
+}

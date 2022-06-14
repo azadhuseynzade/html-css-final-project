@@ -1,0 +1,302 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.span-logo {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  font-family: "Euclid Circular A", sans-serif;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.logo-png{
+  position: relative;
+}
+#navbarSupportedContent{
+  margin-left: 120px;
+}
+.nav-link {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Euclid Circular A", sans-serif;
+  color: black;
+}
+.menu-button {
+  width: 170px;
+  height: 48px;
+}
+.fa-chevron-right {
+  margin-left: 10px;
+}
+.long-text p {
+  font-size: 16px;
+  font-family: "Euclid Circular A", sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: -15px;
+}
+
+#introduction .container-md {
+  background-image: url("images/Rectangle\ 3.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding: 124px 174px;
+}
+#introduction .small-1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Euclid Circular A", sans-serif;
+}
+#introduction .card-title {
+  font-size: 34px;
+}
+#introduction a {
+  text-decoration: none;
+  color: #2e3a59;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Euclid Circular A", sans-serif;
+}
+#introduction a span{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#introduction .small-2 {
+  margin-left: 55px;
+  position: absolute;
+  margin-top: -20px;
+}
+#introduction .col-md-7 {
+  max-width: 100%;
+}
+#introduction .col-md-7 img {
+  width: 592px;
+  height: 384px;
+  position: absolute;
+  top: 125px;
+}
+.share-part {
+  padding-top: 40px;
+}
+.share-part span {
+  font-size: 20px;
+  font-family: "Euclid Circular A", sans-serif;
+  font-weight: 600;
+}
+.share-part i {
+  padding-left: 25px;
+}
+.similar-part {
+  padding-top: 50px;
+}
+.similar-part h5 {
+  font-size: 34px;
+  font-family: "Euclid Circular A", sans-serif;
+  font-weight: 600;
+  line-height: 48px;
+}
+.similarBlogs-part {
+  padding-top: 30px;
+}
+.similarBlogs-part .card-body{
+  padding-left: 0px;
+}
+.three-cards small {
+  font-size: 14px;
+  font-family: "Euclid Circular A", sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+}
+.three-cards h5 {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Euclid Circular A", sans-serif;
+}
+#footer-part {
+  background-image: url("images/Rectangle 2486.png");
+  background-size: 100%;
+  margin-top: 150px;
+}
+#footer-part .last-col{
+  position: relative;
+}
+#footer-part hr{
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.08);
+  position: absolute;
+  margin-top: 10px;
+}
+#footer-part .footer-row-2 {
+  padding-top: 64px;
+}
+#footer-part h4 {
+  font-size: 34px;
+  line-height: 40px;
+  font-family: "Euclid Circular A", sans-serif;
+  font-weight: 400;
+  padding-top: 70px;
+}
+.footer-part h5 {
+  padding-top: px;
+}
+#footer-part p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Euclid Circular A", sans-serif;
+  font-weight: 400;
+  padding-top: 22px;
+}
+#footer-part .card i {
+  margin-left: 5px;
+}
+#footer-part .bg-light {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Euclid Circular A", sans-serif;
+  font-weight: 600;
+  padding: 15px 40px;
+  border-radius: 16px;
+}
+#footer-part .btn {
+  width: 218px;
+  margin-top: 30px;
+}
+#footer-part .span-logo {
+  font-size: 22px;
+  line-height: 32px;
+  font-family: "Euclid Circular A", sans-serif;
+  margin-left: 5px;
+}
+#footer-part .col-md-6 .last-icons i {
+  padding-right: 20px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .logo-png {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-logo {
+    width: 25px;
+    height: 32px;
+  }
+  .span-logo {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .fa-bars {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .menu-button {
+    width: 84px;
+    height: 36px;   
+  }
+  .fa-chevron-right {
+    display: none;
+  }
+  form{
+    display: flex;
+  }
+  form .menu-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #introduction .container-md {
+    background-size: 75%;
+  }
+  #introduction .card-title {
+    font-size: 20px;
+    max-width: 328px;
+    font-weight: 600;
+  }
+  #introduction .container-md {
+    padding: 0;
+  }
+  #introduction .small-1 {
+    font-size: 15px;
+  }
+  #introduction a {
+    display: none;
+  }
+  #introduction .col-md-7 img {
+    position: static;
+    top: 0;
+    padding-left: 10px;
+    width: 385px;
+    height: 229px;
+  }
+  .share-part {
+    padding-top: 15px;
+  }
+  .similar-part {
+    padding-top: 30px;
+  }
+  .similar-part h5 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  .similarBlogs-part {
+    padding-top: 0px;
+  }
+  .three-cards .card-body {
+    width: 368px;
+  }
+  #footer-part {
+    width: 390px; 
+    margin-top: 80px;
+  }
+  #footer-part h4 {
+    padding-top: 30px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  #footer-part .btn{
+    width: 328px;
+  }
+  #footer-part p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  #footer-part .py-0 {
+    margin-top: -15px;
+  }
+  #footer-part .card {
+    background-color: transparent;
+  }
+  #footer-part .bg-light {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 80px;
+    border-radius: 16px;
+  }
+  #footer-part .card-body {
+    text-align: center;
+  }
+  #footer-part .col-md-6 p {
+    text-align: center;
+  }
+  .last-col {
+    flex-direction: column-reverse;
+    color: white;
+  }
+  #footer-part .col-md-6 .last-icons{
+    margin-left: 30px;
+    margin-top: -20px;
+  }
+  #footer-part .col-md-6 .last-icons i {
+    padding-right: 30px;
+  }
+}
